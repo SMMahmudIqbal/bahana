@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="24" fill="#09090b"/>
+  <rect x="2" y="2" width="96" height="96" rx="22" fill="none" stroke="#27272a" stroke-width="2"/>
+  <text x="50" y="65" font-family="'Hind Siliguri', sans-serif" font-size="52" font-weight="700" fill="#fafafa" text-anchor="middle">বা</text>
+</svg>
