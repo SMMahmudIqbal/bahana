@@ -260,4 +260,124 @@ export const BANGLISH_MAP: Record<string, { text: string; proTip: string; tag: s
     proTip: 'Software collaboration-er jhamela bosser kache grohonjoggo.',
     tag: 'Figma Error',
   },
+  'df-1': {
+    text: 'Ammu bollo chhad-e shukate dewa shob kapor hoot kore namiye felte, hothat domka batash aar brishtir fota shuru hoyechilo. Kapor gochhatei shomoy chole gelo.',
+    proTip: 'Chhader kaporer dayitto Bangali shomaje shorbojon-shikrito shotto.',
+    tag: 'Rooftop Clothes Rescue',
+  },
+  'df-2': {
+    text: 'Chhoto bhaiyer school-er science project-e superglue diye thermocol lagate giye nijer dui angul eksathe jora lege gechilo. Kusum gorom panite bhijiye chharate aadha ghonta gelo.',
+    proTip: 'Superglue durghotonar kotha shunle je karo gaa shiure uthbe.',
+    tag: 'Superglue Disaster',
+  },
+  'df-3': {
+    text: 'Bashar posha biral khater ekdom pechhoner chipay dhuke boshe chilo. Khabarer bati dekhiye aador kore ber korte pray 40 minute koshrot korte hoyeche.',
+    proTip: 'Biraler jeder kache shobai oshohay, bondhura nishchit mene nebe.',
+    tag: 'Cat Crisis',
+  },
+  'df-4': {
+    text: 'Gram theke mejo khala hothat kono khobor na diye shoporibare chole eshechen. Ammu bollo drawing room-e salam kore ontoto aadha ghonta golpo na shune ber hole obhoddrota hobe.',
+    proTip: 'Khalader aakoshmik shofor-er shamne puro poribar noto hote baddho.',
+    tag: 'Surprise Relatives',
+  },
+  'gd-1': {
+    text: 'Phone-er SIM card tray alga hoye SIM detect korchilo na, barbar No-Service dekhacchilo. Safety pin khuje ber kore SIM khule rubber diye muchhe lagate shomoy gelo.',
+    proTip: 'Hardware glitch niye corporate kortara beshi jera korte jan na.',
+    tag: 'SIM Card Error',
+  },
+  'gd-2': {
+    text: 'Laptop-er keyboard-er spacebar button bhetore aatke gechilo. On-screen virtual keyboard-e mouse diye ekta ekta kore shobdo click kore likhte likhte haat byatha hoye geche.',
+    proTip: 'Ektu dhire-shusthe kotha bolle keyboard shomosshar probhab sporshto hobe.',
+    tag: 'Spacebar Jam',
+  },
+  'gd-3': {
+    text: 'Headphone kaane guje gaan shunchilam, hothat battery shesh hoye Bluetooth connection disconnected hoye gelo. Charger khujte giye kheyal-i korini call eshechilo.',
+    proTip: 'TWS earbud-er battery drain shobar-i chena obhiggota.',
+    tag: 'Earbuds Dead',
+  },
+  'gd-4': {
+    text: 'Smartphone-er screen protector-er kona bhenge kacher guro angule futchilo. Safety blade diye protector tule screen porishkar kore sanitize korte deri holo.',
+    proTip: 'Angule ektu bandage joriye rakhle bisshash-joggota 100%.',
+    tag: 'Screen Protector Crack',
+  },
+  'gd-5': {
+    text: 'Windows Antivirus amar dorkari PowerPoint presentation-ke malware shondeho kore auto quarantine-e pathiye diyechilo. Uddhar korte deri holo.',
+    proTip: 'Defender-er false positive tech duniyay khubi shabhabik.',
+    tag: 'Antivirus False Alarm',
+  },
+  'wp-1': {
+    text: 'Ber howar thik aage shirt iron korte giye iron-er tolar otirikto gorome collar-er pechhone ekta bishri daag pore gelo. Almarie theke onno jama khuje iron korte holo.',
+    proTip: 'Poshaker poricchonnotar ojuhath je kono bosser kache grohonjoggo.',
+    tag: 'Iron Burn Accident',
+  },
+  'wp-2': {
+    text: 'Juto porte giye dekhi ek payer moja shamne-i ache kintu onno pa-ta nikhonj. Bichhana, sofa aar almarir nich ulte khujte giye aadha ghonta paar hoye gelo.',
+    proTip: 'Ek pa moja nikhonj howa bishshojonin bektigoto biporjoy.',
+    tag: 'Missing Sock Mystery',
+  },
+  'wp-3': {
+    text: 'Pant-er belt lagate giye hook chhire almarir chipay chole gechilo. Shui-suto khuje ene botam o hook shelai korte kortei rowna dite deri hoye gelo.',
+    proTip: 'Shui-suto chalano koshto-r kotha colleague-ra mon diye shunbe.',
+    tag: 'Button Stitch Tragedy',
+  },
+  'wp-4': {
+    text: 'Ber howar aage facewash dewar por towel diye mukh muchhte giye fena chokhe dhuke chokh lal tok-toke hoye gechilo. 15 minute thanda pani dite hoyeche.',
+    proTip: 'Chokhe shamanno lalche bhab thakle kono shikkhok-i jera korben na.',
+    tag: 'Facewash in Eyes',
+  },
+  'fs-1': {
+    text: 'Gotorate otirikto tel-moshladar biryani khowar por shokale emon petbyatha o gastric-er chap uthlo je bichhana chhere daratei parchilam na. Saline khete hoyeche.',
+    proTip: 'Food poisoning ba gastric-er biruddhe karo palta jukti thake na.',
+    tag: 'Biryani Gastric',
+  },
+  'fs-2': {
+    text: 'Tarahurow kore gorom chaye ek chumuk dite giye jihbar uporibhag puro pure oshahr hoye geche. Tana 10 minute kothai sporshto kore bolte parchilam na.',
+    proTip: 'Kotha bolar shomoy shamanno totlanor obhinoy korle perfect kaaj korbe.',
+    tag: 'Burnt Tongue Tea',
+  },
+  'fs-3': {
+    text: 'Morer tong-er nashta khowar kichukkhon por thekei pet-e siren baja shuru hoyechilo. Pharmacy-te giye antacid syrup kheye rest nite baddho hoyechi.',
+    proTip: 'Pharmacy-r medicine-er kotha ullekh korle bishoyti bisshash-joggo hoy.',
+    tag: 'Stomach Siren',
+  },
+  'fs-4': {
+    text: 'Jhalmuri-te mama bhul kore bombay morich beshi diye felechilo. Otirikto jhale chokh aar naak diye pani jhore tana aadha ghonta screen-er dike takatei parini.',
+    proTip: 'Jhal shojjo korte na parlar golpo shunle crush heshe khoma kore debe.',
+    tag: 'Chilli Trap',
+  },
+  'sl-1': {
+    text: 'Bhorer alarm bajar por bhebechilam chokh duto matro 5 minuter jonno ektu bondho kore klanti komai. Chokh mele dekhi ghorite thik dupur 1-ta baje.',
+    proTip: '5 minuter ghum je 5 ghonta hoye jay, ta shobar shathei ghota ghotona.',
+    tag: '5-Minute Nap Trap',
+  },
+  'sl-2': {
+    text: 'Shopne dekhlam ami already class-e dhuke gechi ebong front bench-e boshe note nicchi! Ghum bhangar por abishkar korlam ami ekhono chador muri diye shuye achi.',
+    proTip: 'Lucid dream ba obocheton moner bhrom ek durdanto psychological bahana.',
+    tag: 'Dream Attendance',
+  },
+  'sl-3': {
+    text: 'Choshma mathay tule shara ghor toshnosh kore choshma khujchilam. Drawer, fridge aar boiyer taak ghente 20 minute por aaynay dekhe shosti pelam.',
+    proTip: 'Bhulomona shobhab-er kotha shikar korle manush shadharonoto raag kore na.',
+    tag: 'Glasses on Head',
+  },
+  'sl-4': {
+    text: 'Dorja lock kore chabi pocket-e na rekhe bhul kore showcase-er drawer-e rekhe drawer lock kore diyechilam. Spare key khujte ghaam chhute geche.',
+    proTip: 'Tarahurowr shomoy ei bibhranti je karo hote pare.',
+    tag: 'Key Locked in Drawer',
+  },
+  'ut-1': {
+    text: 'Bariwala hothat panir tank-er line meramot-er jonno shobaike aadha ghonta kono panir call na kholar notice diyechilo. Goshol ordhek rekhei wait korte hoyechilo.',
+    proTip: 'Bariwalar notice-er upor kono bharatiyar haat thake na.',
+    tag: 'Water Tank Repair',
+  },
+  'ut-2': {
+    text: 'Flat-er calling bell ba intercom hothat technical fault-er karone ek-tana ti-ti shobde beje cholchilo. Electrician eshe fuse kholar aag porjonto kaane taala legechilo.',
+    proTip: 'Bell short circuit-er prochondo shobde kono phone call shona oshombhob.',
+    tag: 'Calling Bell Glitch',
+  },
+  'ut-3': {
+    text: 'Bashar ceiling fan-er regulator spark kore dhowa ber hocchilo. Main switch off kore electrician ene fan check korate puro shokalta noshto hoye gelo.',
+    proTip: 'Electrical short circuit o aagun lagar jhuki keu halkabhabe ney na.',
+    tag: 'Fan Regulator Spark',
+  },
 };
