@@ -1,62 +1,98 @@
-# বাহানা (Bahana) — The Excuse Generator
+# Bahana (বাহানা) — The Bangladeshi Excuse Generator
 
-একটি মিনিমালিস্ট ও খাঁটি বাংলাদেশি বাহানা জেনারেটর ওয়েব অ্যাপ। আড্ডা ক্যানসেল করা, ক্লাসে লেট হওয়া, অফিসে জ্যামের অজুহাত কিংবা বন্ধুদের ধার দেওয়া টাকা দেরিতে ফেরতের জন্য পারফেক্ট ও রিয়েলিস্টিক বাহানা।
+> **Developed by S. M. Mahmud Iqbal**  
+> *Minimalist, Culturally Grounded Excuse Generation Engine for Everyday Scenarios*
 
----
-
-## বৈশিষ্ট্যসমূহ (Features)
-
-- **এক ক্লিকে খাঁটি বাহানা**: বড় ট্যাকটাইল বাটন ট্যাপ করলেই বা কিবোর্ডে `Space` চাপলেই পেয়ে যাবেন নতুন অজুহাত।
-- **পরিস্থিতি ভিত্তিক বাছাই (Situation Filtering)**:
-  - ক্লাসে বা ক্যাম্পাসে দেরি
-  - অফিস বা মিটিংয়ে দেরি
-  - কল মিস বা দেরিতে রিপ্লাই
-  - আড্ডা ক্যানসেল বা অনুপস্থিত
-  - অ্যাসাইনমেন্ট বা কাজের ডেডলাইন
-  - টাকা ফেরত দিতে দেরি
-  - বাসায় ফিরতে দেরি বা দাওয়াত
-- **শ্রোতা অনুযায়ী ফিল্টার (Target Audience)**:
-  - দোস্ত / ফ্রেন্ড
-  - বস / টিম লিড
-  - স্যার / ম্যাম
-  - ক্রাশ / মনের মানুষ
-  - আম্মু / আব্বু
-  - সহকর্মী / কলিগ
-- **মেসেঞ্জার ও হোয়াটসঅ্যাপ শেয়ারিং**: সরাসরি ফেসবুক মেসেঞ্জারে পাঠানো, হোয়াটসঅ্যাপে পাঠানো বা এক ক্লিকে ক্লিপবোর্ডে কপি করার সুবিধা।
-- **সোশ্যাল স্টোরি কার্ড এক্সপোর্টার**: ফেসবুক ও ইনস্টাগ্রাম স্টোরির জন্য ১০৮০×১০৮০ হাই-রেজুলেশন কোট কার্ড ইমেজ জেনারেট ও ডাউনলোড করার অপশন।
-- **জরুরি প্যানিক মোড (Safe Excuse)**: হুট করে ইনকামিং কল আসলে তাৎক্ষণিক সর্বোচ্চ বিশ্বাসযোগ্য বাহানা পেতে 'নিরাপদ বাহানা দিন' বাটন।
-- **পছন্দের বাহানা বুকমার্ক**: প্রিয় বাহানাগুলো ব্রাউজারে সেভ করে রাখার সুবিধা।
-- **কাস্টম বাহানা যোগ**: নিজের বানানো সেরা অজুহাত অ্যাপে যুক্ত করার অপশন।
-- **মিনিমালিস্ট ডিজাইন ও নো ইমোজি পলিসি**: পরিষ্কার টাইপোগ্রাফি (Hind Siliguri), ডার্ক ও লাইট মোড, মোবাইল-ফ্রেন্ডলি টাচ সাপোর্ট এবং জিরো ইমোজি।
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-bahana--app.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white)](https://bahana-app.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-18181b?style=for-the-badge&logo=github)](https://github.com/SMMahmudIqbal/bahana)
+[![Author](https://img.shields.io/badge/Developed%20By-S.%20M.%20Mahmud%20Iqbal-6366f1?style=for-the-badge)](https://github.com/SMMahmudIqbal)
+[![License](https://img.shields.io/badge/License-MIT-71717a?style=for-the-badge)](LICENSE)
 
 ---
 
-## লোকাল ডেভেলপমেন্ট (Local Development)
+## Overview
+
+**Bahana** is a minimalist, culturally nuanced web application designed to generate realistic, context-specific excuses tailored to daily Bangladeshi life. Whether dealing with infamous Dhaka traffic, late assignment submissions, delayed payments, missed calls, or canceled hangouts, Bahana produces instant, credible justifications filtered by situation and recipient.
+
+The application features dual-language rendering (Standard Bangla and Banglish transliteration), high-resolution social story card export, instant messenger sharing, and zero extraneous visual clutter.
+
+---
+
+## Core Features
+
+- **Instant Excuse Generation**: One-touch tactile trigger and keyboard `Spacebar` hotkey support for rapid generation.
+- **Context and Situation Filtering**:
+  - Class and campus delays
+  - Workplace and corporate meeting delays
+  - Missed calls and late message responses
+  - Social hangout cancellations
+  - Assignment and project deadlines
+  - Borrowed money repayment deferrals
+  - Family invitations and late home returns
+- **Target Audience Segmentation**:
+  - Friends / Peers
+  - Managers / Team Leads
+  - Teachers / Professors
+  - Romantic Interests / Crushes
+  - Parents / Family
+  - Colleagues / Coworkers
+- **Multi-Channel Sharing**: One-click sharing via Facebook Messenger, WhatsApp, or instant clipboard copy.
+- **Social Story Card Exporter**: Generates 1080x1080 high-resolution branded cards optimized for Instagram and Facebook Stories.
+- **Panic Safe Mode**: Instant emergency button providing foolproof, low-risk excuses for sudden incoming calls.
+- **Local Bookmarking**: Client-side bookmarking system allowing users to save preferred excuses locally.
+- **Custom Excuse Engine**: Empowers users to submit custom excuses saved to browser local storage.
+- **Minimalist Aesthetic**: Clean typography featuring *Hind Siliguri* and *Inter*, high-contrast dark/light modes, and a strict no-emoji policy.
+
+---
+
+## Tech Stack
+
+- **Framework**: React 19 + TypeScript + Vite 6
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Image Generation**: `html-to-image` for canvas-based story card rendering
+- **Deployment**: Vercel
+
+---
+
+## Local Development
 
 ```bash
-# ডিপেন্ডেন্সি ইনস্টল করুন
+# Clone repository
+git clone https://github.com/SMMahmudIqbal/bahana.git
+cd bahana
+
+# Install dependencies
 npm install
 
-# ডেভেলপমেন্ট সার্ভার চালু করুন
+# Start local development server
 npm run dev
 
-# প্রোডাকশন বিল্ড তৈরি করুন
+# Create production build
 npm run build
 ```
 
 ---
 
-## ভার্সেলে ডিপ্লয় করার নিয়ম (Deploy to Vercel)
+## Deployment
 
-### পদ্ধতি ১: Vercel CLI (সবচেয়ে সহজ)
-টার্মিনালে সরাসরি নিচের কমান্ডটি চালান:
+### Vercel CLI
 ```bash
-npx vercel
+npx vercel --prod
 ```
-অনস্ক্রিন নির্দেশিকা অনুসরণ করলেই কয়েক সেকেন্ডে আপনার লাইভ লিংক প্রস্তুত হয়ে যাবে।
 
-### পদ্ধতি ২: GitHub এর মাধ্যমে
-১. প্রজেক্টটি একটি নতুন গিটহাব রিপোজিটরিতে পুশ করুন।
-২. [Vercel Dashboard](https://vercel.com/dashboard) এ যান।
-৩. **Add New...** > **Project** সিলেক্ট করে গিটহাব রিপোজিটরিটি ইম্পোর্ট করুন।
-৪. Framework Preset হিসেবে `Vite` সিলেক্ট থাকবে। সরাসরি **Deploy** বাটনে চাপুন।
+### GitHub Integration
+Connect the repository directly to [Vercel](https://vercel.com) with the `Vite` framework preset.
+
+---
+
+## Author and Attribution
+
+**Developed by S. M. Mahmud Iqbal**  
+- GitHub: [@SMMahmudIqbal](https://github.com/SMMahmudIqbal)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
