@@ -1,4 +1,4 @@
-# Bahana (বাহানা) — The Bangladeshi Excuse Generator
+# Bahana (বাহানা) • The Bangladeshi Excuse Generator
 
 > **Developed by S. M. Mahmud Iqbal**  
 > *Minimalist, Culturally Grounded Excuse Generation Engine for Everyday Scenarios*

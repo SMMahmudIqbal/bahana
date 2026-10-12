@@ -38,8 +38,7 @@ export function shareViaMessenger(text: string): { type: 'opened' | 'copied' } {
   const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
   if (isMobile) {
-    // Try opening Messenger app directly via deep link or Facebook share
-    // Fallback to Messenger mobile web or copy
+    // Try opening Messenger app directly via deep link or Facebook share • Fallback to Messenger mobile web or copy
     const messengerUrl = `fb-messenger://share?link=${encodeURIComponent(window.location.href)}&app_id=123456`;
     
     // We can also trigger native share if available as Messenger will appear as primary option on mobile
@@ -71,7 +70,7 @@ export function shareViaWhatsApp(text: string) {
   if (typeof navigator !== 'undefined' && 'vibrate' in navigator) {
     navigator.vibrate([15]);
   }
-  const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text + '\n\n— বাহানা (the excuse generator)')}`;
+  const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text + '\n\n •  বাহানা (the excuse generator)')}`;
   window.open(url, '_blank');
 }
 
