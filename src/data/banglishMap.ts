@@ -380,4 +380,244 @@ export const BANGLISH_MAP: Record<string, { text: string; proTip: string; tag: s
     proTip: 'Electrical short circuit o aagun lagar jhuki keu halkabhabe ney na.',
     tag: 'Fan Regulator Spark',
   },
+  'ad-1': {
+    text: 'Mama, salon-e chul katate giyechilam. Khourkar mama emon chhat diyeche je aynay nijer chehara dekhe nijei chinte parchi na. Cap khujtei adha ghonta gelo.',
+    proTip: 'Bondhura shunle hashbe kintu kokhonoi obishwash korbe na.',
+    tag: 'Haircut Tragedy',
+  },
+  'ad-2': {
+    text: 'Dost, basha theke ber hote juto porte giye dekhi tolay perek fute ache. Arek jora juto khujte giye mayer haate dhora khelam.',
+    proTip: 'Mayer haate dhora khawar golpo shunle bondhura aar jor kore na.',
+    tag: 'Shoe Repair',
+  },
+  'ad-3': {
+    text: 'Bhai, ammu ek patil kacchi ranna korechilo. Jor kore dui plate khawanor por bichhanay emon gobhir ghum eshe gelo je alarm-er sound-o bhed korte pareni.',
+    proTip: 'Kacchi biryanir food coma je kauke nirostro korar khomota rakhe.',
+    tag: 'Kacchi Coma',
+  },
+  'ad-4': {
+    text: 'Mama, bike-er kick marte marte jutor heel bhenge alada hoye geche. Morer muchir dokan bondho thakay bari fire choti bodlate hoyeche.',
+    proTip: 'Biker friend-ra ei byathar mormo shobcheye bhalo bojhe.',
+    tag: 'Kickstart Fail',
+  },
+  'ad-5': {
+    text: 'Dost, basha theke ber howar shomoy pocket-e haat diye dekhi moneybag table-er upor pore ache. Totokkhone tin tola neme asay abar upore uthte holo.',
+    proTip: 'Bhulomona shobhab-er kotha janiye nijeke nirdosh proman korun.',
+    tag: 'Wallet Misplaced',
+  },
+  'bk-1': {
+    text: 'Dost, bank app theke bKash-e add money korte giye OTP code tana bish minute dhore mobile-e aseni. Ekhon service abar shabhabik hoyeche.',
+    proTip: 'Telecom-er OTP delay niye keu torko korbe na.',
+    tag: 'OTP Jam',
+  },
+  'bk-2': {
+    text: 'Mama, ATM booth-e card swipe korar por screen-e dekhalo taka dewa hocche kintu cash ber holo na, taka kete newar SMS eseche. Bank-e complain korte jacchi.',
+    proTip: 'ATM booth-er slip haate niye kotha bolle shotobhag bishwashjo.',
+    tag: 'ATM Cash Trap',
+  },
+  'bk-3': {
+    text: 'Bhai, mashik transaction limit shesh hoye geche. Central Bank policy-r jonno onno karo account diye pathiye dicchi ektu por-i.',
+    proTip: 'Kendriyo Bank-er niyom-er kotha shunle chap kome jay.',
+    tag: 'Bangladesh Bank Limit',
+  },
+  'bk-4': {
+    text: 'Dost, morer chayer dokane bKash-e QR code scan korte giye dekhi amar phone-er pechhoner camera-r glass fete focus korte parchilo na. Manual number-e pathacchi.',
+    proTip: 'Camera bhangar kotha bolle shobai ektu shohanubhuti-i dekhay.',
+    tag: 'QR Scan Fail',
+  },
+  'cp-1': {
+    text: 'Sir, campus road-e department-er lift-e amra chhoyjon pray ponero minute atke chilam. Security team eshe manually gate kholar por shiri diye uthte deri holo.',
+    proTip: 'Eki batch-er arekjonke shakkhi hishebe raji koriye rakha bhalo.',
+    tag: 'Lift Lockdown',
+  },
+  'cp-2': {
+    text: 'Dost, CR Messenger-e post diyechilo aajker prothom class naki suspend kora hoyeche! Eshe dekhi bhua notice, totokkhone to deri hoye geche.',
+    proTip: 'CR-er upor dosh chapano campus-er chironton oitijjho.',
+    tag: 'CR Mislead',
+  },
+  'cp-3': {
+    text: 'Sir, assignment-er binding korate Nilkhet giyechilam. Current chole jawar por dokandar mombati jaliye manually page shelai korchilo.',
+    proTip: 'File-er niche ektu mom-er daag fele nile nikhut proman hobe.',
+    tag: 'Manual Binding',
+  },
+  'cp-4': {
+    text: 'Maam, lab report ready korar shomoy hothat antivirus software puro code file-ke khotikarok bhebe quarantine-e pathiye diyeche. Uddhar korchi.',
+    proTip: 'Computer Science ba Engineering department-e eti mokkhom ostro.',
+    tag: 'Antivirus False Positive',
+  },
+  'cp-5': {
+    text: 'Dost, TSC-r cafeteria-e nashta korte giyechilam, boro bhaiyera pakrao kore career bishoyok adday boshiye rekhechilo, uthte pari nai.',
+    proTip: 'Boro bhaider dak-er shamne campus-er karo kichu bolar thake na.',
+    tag: 'TSC Seniors',
+  },
+  'cr-1': {
+    text: 'Shotyi bolchi, tomar message-er notification ashar thik aagei phone haat theke pore giye display puropuri black hoye gechilo. Service centre-e giye cable thik korate hoyeche.',
+    proTip: 'Phone-er cover-ta ektu purono thakle ei ojuhat chomotkar kaaj kore.',
+    tag: 'Screen Blackout',
+  },
+  'cr-2': {
+    text: 'Tomar shathe dekha korar jonnoi ber hoyechilam. Kintu bashar niche namtei maa mathay haat diye bollo joruri ekta kaaje doctor-er chamber-e niye jete hobe. Ekdom nirupay chilam.',
+    proTip: 'Maa aar doctor-er naam shunle keu raag dhore rakhte pare na.',
+    tag: 'Dutiful Child',
+  },
+  'cr-3': {
+    text: 'Raate kotha bolte bolte je kokhon klantite chokh lege geche bujhtei pari nai. Shopneo kintu tomar shathei kotha bolchilam!',
+    proTip: 'Shesher dialogue-ta khub mishti kore bolte hobe, raag nimeshei vanish.',
+    tag: 'Romantic Sleep',
+  },
+  'cr-4': {
+    text: 'Phone-e data pack-er meyad shesh hoye gechilo. Raate bKash diye recharge korte giye dekhi card-er OTP aschilo na. Bhor hotei recharge kore knock dilam.',
+    proTip: 'Shokalbela druto message pathiye dile bishwostota otut thake.',
+    tag: 'OTP Glitch',
+  },
+  'fm-1': {
+    text: 'Ammu, Dhanmondi lake-e chilam. Hothat akash bhenge emon shilabrishti shuru holo je kono chaunir niche theke ek pa-o norar moto obostha chilo na.',
+    proTip: 'Prakritik durjog-er upor karo haat thake na.',
+    tag: 'Hailstorm Trap',
+  },
+  'fm-2': {
+    text: 'Abbu, morer overbridge-e ek probin byaktir pressure low hoye pore gechilo. Onake pani khaiye CNG-te tule diye ashte ektu shomoy lege gelo.',
+    proTip: 'Beshi bariye na bole shantobhabe bolle abbu khushi hoben.',
+    tag: 'Humanitarian Help',
+  },
+  'fm-3': {
+    text: 'Ammu, Farmgate-er more moylar boro dumper ulte giye puro rastay borjo choriye porechilo. Gari o rickshaw shob bondho kore rasta dhoa hocchilo.',
+    proTip: 'Farmgate-er moylar gondher kotha je kono Dhakabashi chene.',
+    tag: 'Garbage Truck Jam',
+  },
+  'nt-1': {
+    text: 'Bishwash kor dost, Facebook-e Messenger app background-e auto-update nicchilo. Puro adha ghonta kono notification ba chat open hocchilo na.',
+    proTip: 'Meta app-er bug niye karo shondeho thake na.',
+    tag: 'Messenger Update Bug',
+  },
+  'nt-2': {
+    text: 'Shotyi boltesi, phone-ta balish-er niche dhuke gechilo. Vibration sound aar ringtone kichui baire aseni, shokale khat jharu dite giye peyechi.',
+    proTip: 'Kothata hashimukhe bolle oporpranter raag jol hoye jabe.',
+    tag: 'Phone Under Pillow',
+  },
+  'nt-3': {
+    text: 'Boss, elakar fiber optic cable City Corporation-er drain porishkar-er shomoy kete gechilo. Dupur porjonto kono cellular tower kaaj korchilo na.',
+    proTip: 'City Corporation-er kaajke dosh dewa shobcheye nirapod.',
+    tag: 'Fiber Cut Down',
+  },
+  'nt-4': {
+    text: 'Headphone-e kotha shunchilam, hothat Bluetooth disconnect hoye audio speaker-e chole jay. Ami bhabchilam kanei ring bajche, othocho phone dur table-e rakha chilo.',
+    proTip: 'TWS earbuds-er connection drop shobar kachei porichito.',
+    tag: 'Bluetooth Bud Glitch',
+  },
+  'of-1': {
+    text: 'Boss, office-er laptop on korte giye dekhi Windows BitLocker recovery key chacche. IT support-er shathe phone-e connect hoye key uddhar korte shomoy laglo.',
+    proTip: 'BitLocker naam shunlei boss-era bhoy peye chup hoye jan.',
+    tag: 'BitLocker Lock',
+  },
+  'of-2': {
+    text: 'Bhai, client-er share kora Google Drive-e view permission chilo kintu editor access chilo na. Access request pathiye mail-er jonno opekkha korchilam.',
+    proTip: 'Permission issue je kono corporate project-er shabhabik ghotona.',
+    tag: 'Drive Access Error',
+  },
+  'of-3': {
+    text: 'Boss, Karwan Bazar-er more paikari shobjir truck unload korar karone prodhan shorok pray ek ghonta block hoye porechilo.',
+    proTip: 'Shokaler dike ei bahana Dhakar jekono boss-er kache promanito shotto.',
+    tag: 'Vegetable Market Blockade',
+  },
+  'of-4': {
+    text: 'Bhai, joruri file-ta save kore export dite giye dekhi C drive-e ek megabyte-o jayga faka nai. Cache file clear korte shomoy gelo.',
+    proTip: 'Windows cache-er shomossha tech duniyay oti shadharon.',
+    tag: 'Disk Space Full',
+  },
+  'of-5': {
+    text: 'Boss, shokal theke broadband internet-er router-e hothat tiktiki dhuke short circuit hoye puro WiFi setup down hoye gechilo. Hotspot diye connect korechi.',
+    proTip: 'Ektu natuke kintu Bangali grihosthalir nikhut chitro.',
+    tag: 'Router Short Circuit',
+  },
+  'rm-1': {
+    text: 'Tomar shathe dekha korte ber howar aagei ekta drutogami CNG pasher gorter nongra pani chhitke amar puro jamay lagiye diyechilo. Bashay fire fresh hote deri holo.',
+    proTip: 'Nongra jama niye na ashar karon hishebe poricchonnotar proshongsha paben.',
+    tag: 'Muddy Splash',
+  },
+  'rm-2': {
+    text: 'Tomar message porte porte onnomonoshko hoye hantchilam, rickshawala mama jiggesh na korei onno route-e niye chole gechilo. Pore hente ferot ashte holo.',
+    proTip: 'Tar bhabnay dube thakar mishti shikarokti hishebe kaaj korbe.',
+    tag: 'Romantic Distraction',
+  },
+  'rm-3': {
+    text: 'Phone-er charger cable-ta shararaat plug-e lagano chilo kintu multiplug-er button press korte bhule gechilam. Shokale uthe dekhi charge shunno.',
+    proTip: 'Bhulomona shobhab dekhale raag druto gole jay.',
+    tag: 'Multiplug Switch Off',
+  },
+  'vr-1': {
+    text: 'Dost, ber howar shomoy shirite ekta kalo biral rasta kete geche. Ammu bollo panch minute boshe dui dhok pani na kheye ber hole okollan hobe.',
+    proTip: 'Bondhuder adday hashir khorak hote pare, tobe bishwashjoggota proshnobiddho.',
+    tag: 'Superstition Trick',
+  },
+  'vr-2': {
+    text: 'Boss, amader elakar transformer blast kore puro mohollay current off chilo. Mobile-er network tower-o down hoye gechilo generator-er diesel shesh thakay.',
+    proTip: 'Transformer bishforon Dhakar bohu elakar chironton bastob chitro.',
+    tag: 'Transformer Blast',
+  },
+  'vr-3': {
+    text: 'Mama, rickshaw-e uthar por rickshaw mama bollo shorire jor pacche na, gas-er shomossha. Pore neme hente ashte ashte paa byatha hoye geche.',
+    proTip: 'Rickshawalar ei dialogue shuneni emon Dhakabashi birol.',
+    tag: 'Rickshaw Mama Classic',
+  },
+  'vr-4': {
+    text: 'Sir, shokale basha theke rowna dewar por CNG driver bollo Mirpur 10-e rasta kete pipe boshacche, ghure Rokeya Shoroni diye ashte giye jam-er shagore dube chilam.',
+    proTip: 'Mirpur-er rasta katar golpo shobshomoy khanti sonar moto bastob.',
+    tag: 'Mirpur Diversion',
+  },
+  'vr-5': {
+    text: 'Bhai, apnar joruri call-ta bajar shomoy ami mosjid-e namaj-e chilam. Phone-ta silent kore pocket-e rekhechilam bole ber howar aage callback korte parini.',
+    proTip: 'Dhormiyo abohe keu kokhono palta jera korte jay na.',
+    tag: 'Mosque Safety',
+  },
+  'vr-6': {
+    text: 'Dost, bishwash korbi na, shokale pant porar por chain atke geche! Tel-er drop diye jam charate charate bish minute noshto holo.',
+    proTip: 'Bondhura shunle hashte hashte goriye porbe kintu bahana mene nebe.',
+    tag: 'Clothing Disaster',
+  },
+  'vr-7': {
+    text: 'Sir, kaal raate food poisoning-er jonno tana tinbar saline khete hoyeche. Shokale pressure low thakay bichhana theke namtei matha ghurchilo.',
+    proTip: 'Chokher niche ektu dark circle thakle sir-er maya hobe.',
+    tag: 'Low Pressure',
+  },
+  'vr-8': {
+    text: 'Boss, client meeting-er thik aage laptop on korte giye dekhi neel screen eshe re-install Windows chacche. Backup drive theke file uddhar korchi.',
+    proTip: 'IT related text file pathiye dile boss aar ghatabe na.',
+    tag: 'Technical Complexity',
+  },
+  'vr-9': {
+    text: 'Dost, bKash app-e password diye dhukte giye server timeout dekhacche. Ektu aage recharge korlam, taka keteche kintu balance jog hoyni!',
+    proTip: 'Screenshot lagle kono purono pending transaction crop kore rakhun.',
+    tag: 'Fintech Trouble',
+  },
+  'vr-10': {
+    text: 'Ammu, brishtir pani rastay hatu shoman hoye geche. Kono gari edike dhukte chaiche na. Ekta van-e kore bhijte bhijte aschi.',
+    proTip: 'Pant-er nich-ta shamanno bhijiye nile perfect representation hobe.',
+    tag: 'Waterlogging Tragedy',
+  },
+  'vr-11': {
+    text: 'Mama, bus stand-e eshe dekhi bus-er helper aar driver-er shathe passenger-er hatahati lege rasta bondho. Police eshe lathicharge korar por gari charlo.',
+    proTip: 'Dhakar local bus-e maramari oti shadharon ghotona.',
+    tag: 'Road Chaos',
+  },
+  'vr-12': {
+    text: 'Boss, shokaler Zoom meeting-er link open korte giye amar browser-er shob extension crash koreche. Memory clear kore browser reinstall korte deri holo.',
+    proTip: 'Virtual meeting-er jonno ei excuse ek number.',
+    tag: 'Zoom Connection Error',
+  },
+  'vr-13': {
+    text: 'Dost, adday ashar jonno Uber CNG call disilam. Mama golir ulto mukhe dhuke adha ghonta jam-e boshe chilo, phone dile bole mama ashtesi!',
+    proTip: 'Uber driver-er mama ashtesi dialogue kono Bangali oshikar korbe na.',
+    tag: 'Ride Hailing Memes',
+  },
+  'vr-14': {
+    text: 'Sir, assignment-er file Drive folder-e upload kore rekhechilam. Aaj shokale eshe dekhi link view only na thakay ek friend delete kore feleche.',
+    proTip: 'Kalponik friend-er upor dosh chapiye notun shomoy ber kore nin.',
+    tag: 'Drive Permission Fail',
+  },
+  'vr-15': {
+    text: 'Bishwash kor, phone-e kotha bolte bolte haat theke chhitke panir jog-e pore gechilo! Chal-er drum-e dubiye shukanor por ekhon abar call dicchi.',
+    proTip: 'Chal drum-e phone rakhar deshi totka niye torko korar shujog nei.',
+    tag: 'Rice Drum Rescue',
+  },
 };
